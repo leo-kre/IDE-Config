@@ -9,7 +9,7 @@ git clone https://github.com/leo-kre/IDE-Config.git ~/.config/nvim
 font-family = JetBrains Mono
 font-size = 20
 
-background = #151515
+background = #181616
 foreground = #d4d4d4
 
 window-width = 160
@@ -59,7 +59,7 @@ set -g status-left-length 100
 set -g status-right "#{E:@catppuccin_status_application}"
 set -ag status-right "#{E:@catppuccin_status_session}"
 
-set -g @catppuccin_status_background "#151515"
+set -g @catppuccin_status_background "#181616"
 set -g @catppuccin_window_flags "icon"
 
 set -g @catppuccin_status_fill "icon"
