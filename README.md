@@ -99,6 +99,10 @@ set -g @plugin 'tmux-plugins/tpm'
 # Zshrc config
 
 ```bash
+brew install eza
+````
+
+```bash
 nvim ~/.zshrc
 ```
 
