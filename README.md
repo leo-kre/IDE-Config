@@ -1,10 +1,11 @@
 # 💤 LazyVim Installation
-
+```bash
 git clone https://github.com/leo-kre/IDE-Config.git ~/.config/nvim
+```
 
 # Ghostty Config
 
-```
+```bash
 font-family = JetBrains Mono
 font-size = 20
 
@@ -17,12 +18,13 @@ window-height = 45
 # Tmux Config
 
 Catppuccin Setup
-```
+
+```bash
 mkdir -p ~/.config/tmux/plugins/catppuccin
 git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux
 ```
 
-```
+```bash
 unbind r
 bind r source-file ~/.tmux.conf
 
