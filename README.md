@@ -1,4 +1,13 @@
+# 📦 Required Packages
+
+```bash
+brew install node hadolint python git tmux nvim pipx
+```
+
 # 💤 LazyVim Installation MacOS
+
+
+
 ```bash
 git clone https://github.com/leo-kre/IDE-Config.git ~/.config/nvim
 ```
