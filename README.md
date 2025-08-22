@@ -100,6 +100,7 @@ set -g @plugin 'tmux-plugins/tpm'
 
 ```bash
 brew install eza
+brew install thefuck
 ````
 
 ```bash
