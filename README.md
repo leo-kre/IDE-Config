@@ -189,6 +189,6 @@ export PATH
 
 # --- Aliases ---
 alias cl='clear && ls'
-alias ls='eza -l --git -T --hyperlink --header --icons=always --no-permissions --no-user -L 1'
+alias ls='eza -l --git -T -a --hyperlink --header --icons=always --no-permissions --no-user -L 1'
 
 ```
