@@ -1,9 +1,9 @@
-# 💤 LazyVim Installation
+# 💤 LazyVim Installation MacOS
 ```bash
 git clone https://github.com/leo-kre/IDE-Config.git ~/.config/nvim
 ```
 
-# Ghostty Config
+# 👻 Ghostty Config
 
 ```bash
 font-family = JetBrains Mono
@@ -18,7 +18,7 @@ foreground = #d4d4d4
 window-width = 160
 window-height = 45
 ```
-# Tmux Config
+# 🪟 Tmux Config
 
 Catppuccin Setup
 
@@ -96,7 +96,7 @@ set -g @plugin 'tmux-plugins/tpm'
 # run '~/.tmux/plugins/tpm/tpm'  # uncomment if you use TPM
 ```
 
-# Zshrc config
+# 📋 Zshrc config
 
 ```bash
 brew install eza
