@@ -1,0 +1,75 @@
+{
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
+  "workbench.colorTheme": "Kanagawa Dragon",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 17,
+  "git.openRepositoryInParentFolders": "never",
+  "pylint.lintOnChange": true,
+  "editor.formatOnSave": true,
+  "diffEditor.codeLens": true,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+
+  //custom settings
+  "editor.minimap.enabled": false,
+  "workbench.tips.enabled": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "window.commandCenter": false,
+  "window.restoreWindows": "none",
+
+  //vim
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true, // or incsearch
+  "vim.useCtrlKeys": true,
+
+  //vscodevim appearence settings
+  "editor.cursorSurroundingLines": 10,
+  "vim.smartRelativeLine": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "rgba(250, 240, 170, 0.2)",
+  "vim.highlightedyank.duration": 150,
+  "vim.statusBarColorControl": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+
+  //optional
+  "window.menuBarVisibility": "compact",
+  "workbench.editor.showTabs": "single",
+
+  "vim.statusBarColors.normal": ["#181616", "#C5C9C5"],
+
+  "vim.statusBarColors.insert": ["#C4746E", "#181616"],
+
+  "vim.statusBarColors.visual": ["#7E9CD8", "#181616"],
+
+  "vim.statusBarColors.visualline": ["#DCD7BA", "#181616"],
+
+  "vim.statusBarColors.visualblock": ["#957FB8", "#181616"],
+
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#181616",
+    "statusBar.noFolderBackground": "#181616",
+    "statusBar.debuggingBackground": "#181616",
+    "statusBar.foreground": "#C5C9C5",
+    "statusBar.debuggingForeground": "#C5C9C5"
+  },
+
+  "vim.enableNeovim": true,
+  "vim.neovimUseConfigFile": true,
+
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<space>"],
+      "commands": ["whichkey.show"]
+    }
+  ],
+
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "beofore": ["<space>"],
+      "commands": ["whichkey.show"]
+    }
+  ],
+  "breadcrumbs.enabled": false,
+}

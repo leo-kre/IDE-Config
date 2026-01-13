@@ -1,0 +1,59 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+e",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.toggleSidebarVisibility",
+                "workbench.action.focusActiveEditorGroup"
+            ]
+        },
+        "when": "sideBarFocus"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.toggleSidebarVisibility",
+                "workbench.view.explorer"
+            ]
+        },
+        "when": "!sideBarVisible"
+    },
+    {
+        "key": "enter",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "list.select",
+                "workbench.action.toggleSidebarVisibility",
+                "workbench.action.focusActiveEditorGroup"
+            ]
+        },
+        "when": "filesExplorerFocus && !explorerResourceIsFolder"
+    },
+
+    {
+        "key": "d",
+        "command": "deleteFile",
+        "when": "sideBarFocus && !inputFocus"
+    },
+    {
+        "key": "n",
+        "command": "explorer.newFile",
+        "when": "sideBarFocus && !inputFocus"
+    },
+
+    {
+        "key": "j",
+        "command": "list.focusAnyDown",
+        "when": "sideBarFocus && !inputFocus"
+    },
+    {
+        "key": "k",
+        "command": "list.focusAnyUp",
+        "when": "sideBarFocus && !inputFocus"
+    }
+]
